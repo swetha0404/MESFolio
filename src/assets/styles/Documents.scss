@@ -1,0 +1,117 @@
+.documents-container {
+    padding: 5% 10%;
+    text-align: left;
+    color: white;
+    transition: all 0.5s ease-in-out;
+    h2 {
+      font-size: 2.2rem;
+      margin-bottom: 20px;
+    }
+  }
+  
+  .documents-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+    gap: 20px;
+  }
+  
+  .document-tile {
+    background-color: #420b96;
+    padding: 20px;
+    border-radius: 10px;
+    cursor: pointer;
+    box-shadow: 0 3px 10px rgba(0, 0, 0, 0.3);
+    transition: transform 0.2s ease;
+  
+    &:hover {
+      transform: translateY(-5px);
+      background-color: #292929;
+    }
+  
+    h4 {
+      margin: 0 0 5px 0;
+      color: #e4bfff
+    }
+  
+    p {
+      margin: 0;
+      font-size: 0.95rem;
+      color: #ccc;
+    }
+  }
+  
+  // Fullscreen modal
+  .modal-overlay {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100vw;
+    height: 100vh;
+    background-color: rgba(10, 10, 10, 0.9);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    z-index: 2000;
+  }
+  
+  .modal-content {
+    display: flex;
+    flex-direction: column;
+    padding: 20px;
+    height: 90%;
+    background-color: #111;
+    border-radius: 10px;
+  }
+  
+//   .document-preview {
+//     flex: 1;
+//     width: 100%;
+//     border: none;
+//     border-radius: 8px;
+//     background-color: white;
+//   }
+  .document-preview {
+    flex: 0 1 auto;
+    max-height: calc(100% - 27px);
+    max-width: 100%;
+    object-fit: contain;
+    border-radius: 10px;
+    background-color: white;
+  }
+  
+  .modal-buttons {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 5px;
+    padding-bottom: 30px;
+  
+    .close-btn, .download-btn {
+      padding: 10px 20px;
+      border: none;
+      border-radius: 6px;
+      font-weight: bold;
+      font-size: 1em;
+      cursor: pointer;
+    //   font-family: 'Courier Prime', monospace;
+    }
+  
+    .close-btn {
+      background-color: #5000ca;
+      color: white;
+  
+      &:hover {
+        background-color: #3f00a6;
+      }
+    }
+  
+    .download-btn {
+      background-color: white;
+      color: #111;
+      text-decoration: none;
+  
+      &:hover {
+        background-color: #ddd;
+      }
+    }
+  }
+  
