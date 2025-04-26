@@ -4,13 +4,11 @@
 
 ## What is this?
 
-This simple portfolio template is designed to showcase your past projects, career history, skill sets, and more.
+This portfolio is designed to showcase my leadership journey, creative problem-solving skills, and personal growth - aspects of myself that go beyond what's included in a traditional resume.
 
-View the [Demo](https://swetha0404.github.io/MESFolio/).
+---
+## View the [Portfolio](https://swetha0404.github.io/MESFolio/).
 
-**This template is free to use, and no attribution is required.** You can fork or download this repository to customize it for your own use. Please don't forget to leave a ⭐ if you like this portfolio!
-
-<!-- ![screenshot](./src/assets//images/screenshot.png) -->
 
 ## Features
 
@@ -19,7 +17,7 @@ View the [Demo](https://swetha0404.github.io/MESFolio/).
 ✅ Highly customizable multi-component layout  
 ✅ Built with modern technologies (React, TypeScript, JavaScript, and SCSS)  
 
-## Quick Setup
+## Quick Setup (In case you like it and want to use it😉 )
 
 1. Ensure you have [Node.js](https://nodejs.org/) installed. Check your installation by running:
 
@@ -45,7 +43,6 @@ View the [Demo](https://swetha0404.github.io/MESFolio/).
 
 The page will reload if you make edits, and you will see any lint errors in the console.
 
-If you are interested in creating a mockup image like the ones from the personal projects section, I recommend [Genmoo](https://gemoo.com/tools/browser-mockup-generator/). This website lets you generate sleek looking browser mockups for free.
 
 ## Deployment
 
@@ -83,3 +80,7 @@ You can choose your preferred service (e.g., [Netlify](https://www.netlify.com/)
 4. **Access Your Deployed App**
 
     After successfully deploying, you can access your app at `https://yourusername.github.io/your-repo-name`.
+
+
+## Credits
+This portfolio was originally created by [Yuji Sato](https://github.com/yujisatojr) and I added some extra features ೀ⋆｡🌷 to customize according to my profile and personality. 
