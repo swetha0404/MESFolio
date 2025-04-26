@@ -35,8 +35,8 @@ function Project() {
                 <p>This is an online educational platform that provides high-quality, data science-focused learning resources in the Japanese language. I created the entire platform from scratch using Ruby on Rails.</p>
             </div> */}
             <div className="project"> {/*5*/}
-                <a href="http://www.wemanage.jp/" target="_blank" rel="noreferrer"><img src={wplwebsite} className="zoom" alt="thumbnail" width="100%"/></a>
-                <a href="http://www.wemanage.jp/" target="_blank" rel="noreferrer"><h2>Grocery Store</h2></a>
+                <a href="https://github.com/swetha0404/grocerystore" target="_blank" rel="noreferrer"><img src={wplwebsite} className="zoom" alt="thumbnail" width="100%"/></a>
+                <a href="https://github.com/swetha0404/grocerystore" target="_blank" rel="noreferrer"><h2>Grocery Store</h2></a>
                 <p>This web application was built with very old tech stack - HTML, CSS, PHP, Javascript and MySQL. This project helped me understand the basics of web development and how to create a website from scratch.</p>
             </div>
             <div className="project"> {/*6*/}
