@@ -1,4 +1,4 @@
-import React, { useState, useEffect } from 'react';
+import React, { useState, useEffect, useRef } from 'react';
 import '../assets/styles/Leadership.scss';
 
 // Import images manually
@@ -53,45 +53,59 @@ const leadershipData = [
   },
 ];
 
-const Leadership: React.FC = () => {
-    const [currentSlides, setCurrentSlides] = useState(Array(leadershipData.length).fill(0));
-  
-    useEffect(() => {
-      const interval = setInterval(() => {
-        setCurrentSlides((prev) =>
-          prev.map((val, i) => (val + 1) % leadershipData[i].images.length)
-        );
-      }, 4000);
-  
-      return () => clearInterval(interval);
-    }, []);
-  
-    const nextSlide = (index: number) => {
-      setCurrentSlides((prev) => {
-        const updated = [...prev];
-        updated[index] = (prev[index] + 1) % leadershipData[index].images.length;
-        return updated;
-      });
-    };
-  
-    const prevSlide = (index: number) => {
-      setCurrentSlides((prev) => {
-        const updated = [...prev];
-        updated[index] =
-          (prev[index] - 1 + leadershipData[index].images.length) %
-          leadershipData[index].images.length;
-        return updated;
-      });
-    };
-  
-    return (
-        <div id="leadership">
-        <div className="leadership-header">
-            <h1>Leadership</h1>
-            <p>I have held several leadership positions starting as early as second grade, when I was the class leader. Taking initiative has always been one of my strengths. Whether in academic, social, charitable, or sports environments, I've consistently been the one to step up and take charge. I've also participated in several disaster relief programs, contributing through tasks like transporting supplies and packing food. I never hesitate to take on any kind of work and don't believe any job is beneath me. One of my best qualities is my ability to listen, ask the right questions, and work as part of a team—not just lead and delegate.</p>
-        </div>
-        <div className="leadership-container">
         
+const Leadership: React.FC = () => {
+  const [currentSlides, setCurrentSlides] = useState(Array(leadershipData.length).fill(0));
+  const [isPaused, setIsPaused] = useState(false);
+  const pauseTimeoutRef = useRef<NodeJS.Timeout | null>(null);
+
+  useEffect(() => {
+    if (isPaused) return; // don't auto-slide if paused
+
+    const interval = setInterval(() => {
+      setCurrentSlides((prev) =>
+        prev.map((val, i) => (val + 1) % leadershipData[i].images.length)
+      );
+    }, 4000);
+
+    return () => clearInterval(interval);
+  }, [isPaused]);
+
+  const pauseAutoSlide = () => {
+    setIsPaused(true);
+    if (pauseTimeoutRef.current) clearTimeout(pauseTimeoutRef.current);
+    pauseTimeoutRef.current = setTimeout(() => {
+      setIsPaused(false);
+    }, 5000); // 5 seconds pause
+  };
+
+  const nextSlide = (index: number) => {
+    pauseAutoSlide();
+    setCurrentSlides((prev) => {
+      const updated = [...prev];
+      updated[index] = (prev[index] + 1) % leadershipData[index].images.length;
+      return updated;
+    });
+  };
+
+  const prevSlide = (index: number) => {
+    pauseAutoSlide();
+    setCurrentSlides((prev) => {
+      const updated = [...prev];
+      updated[index] =
+        (prev[index] - 1 + leadershipData[index].images.length) % leadershipData[index].images.length;
+      return updated;
+    });
+  };
+
+  return (
+    <div id="leadership">
+      <div className="leadership-header">
+        <h1>Leadership</h1>
+        <p>I have held several leadership positions starting as early as second grade, when I was the class leader. Taking initiative has always been one of my strengths. Whether in academic, social, charitable, or sports environments, I've consistently been the one to step up and take charge. I've also participated in several disaster relief programs, contributing through tasks like transporting supplies and packing food. I never hesitate to take on any kind of work and don't believe any job is beneath me. One of my best qualities is my ability to listen, ask the right questions, and work as part of a team—not just lead and delegate.</p>
+      </div>
+
+      <div className="leadership-container">
         {leadershipData.map((item, index) => (
           <div className="leadership-tile" key={index}>
             <div className="slideshow-wrapper">
@@ -121,7 +135,7 @@ const Leadership: React.FC = () => {
         ))}
       </div>
     </div>
-    );
-  };
-  
-  export default Leadership;
+  );
+};
+
+export default Leadership;
