@@ -1,6 +1,6 @@
 {
   "files": {
-    "main.css": "/MESFolio/static/css/main.dcb17028.css",
+    "main.css": "/MESFolio/static/css/main.1a71eae6.css",
     "main.js": "/MESFolio/static/js/main.09629d0a.js",
     "static/js/453.066c8846.chunk.js": "/MESFolio/static/js/453.066c8846.chunk.js",
     "static/media/vts12.gif": "/MESFolio/static/media/vts12.2425f9d3837f63d97cca.gif",
@@ -45,12 +45,12 @@
     "static/media/misc2.jpg": "/MESFolio/static/media/misc2.fc6af1cd8f9f43046cc0.jpg",
     "static/media/NPS1.jpg": "/MESFolio/static/media/NPS1.573f33785dc53a5195a4.jpg",
     "index.html": "/MESFolio/index.html",
-    "main.dcb17028.css.map": "/MESFolio/static/css/main.dcb17028.css.map",
+    "main.1a71eae6.css.map": "/MESFolio/static/css/main.1a71eae6.css.map",
     "main.09629d0a.js.map": "/MESFolio/static/js/main.09629d0a.js.map",
     "453.066c8846.chunk.js.map": "/MESFolio/static/js/453.066c8846.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.dcb17028.css",
+    "static/css/main.1a71eae6.css",
     "static/js/main.09629d0a.js"
   ]
 }
