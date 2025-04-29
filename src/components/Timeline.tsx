@@ -46,10 +46,23 @@ function Timeline() {
             iconStyle={{ background: '#5000ca', color: 'rgb(39, 40, 34)' }}
             icon={<FontAwesomeIcon icon={faBriefcase} />}
           >
-            <h3 className="vertical-timeline-element-title">Software Engineering Intern <br/> @Swift Global Systems</h3>
-            <h4 className="vertical-timeline-element-subtitle">Remote</h4>
+            <h3 className="vertical-timeline-element-title">Teaching Assistant<br/> University of Texas at Dallas</h3>
+            <h4 className="vertical-timeline-element-subtitle">Richardson, TX</h4>
             <p>
-              Full-stack Development, API Development, User Experience
+              Mentoring, Tutoring, Grading, Course Management
+            </p>
+          </VerticalTimelineElement>
+
+          <VerticalTimelineElement
+            className="vertical-timeline-element--work"
+            date="July 2023 - July 2024"
+            iconStyle={{ background: '#5000ca', color: 'rgb(39, 40, 34)' }}
+            icon={<FontAwesomeIcon icon={faBriefcase} />}
+          >
+            <h3 className="vertical-timeline-element-title">Student Assistant<br/> Student Union @UTD</h3>
+            <h4 className="vertical-timeline-element-subtitle">Richardson, TX</h4>
+            <p>
+              Customer Service, Building Management, Inventory Management 
             </p>
           </VerticalTimelineElement>
 
