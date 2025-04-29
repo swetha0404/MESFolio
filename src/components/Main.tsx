@@ -7,7 +7,7 @@ import '../assets/styles/Main.scss';
 function Main() {
   const handleDownload = () => {
     const link = document.createElement('a');
-    link.href = 'https://mesportfolio.s3.us-east-1.amazonaws.com/documents/Swetha_Malaivaiyavur_Elayavalli_Resume.pdf';
+    link.href = 'https://mesportfolio.s3.us-east-1.amazonaws.com/documents/Swetha_M_E_Resume.pdf';
     link.setAttribute('download', 'Swetha_M_E_Resume.pdf');
     link.setAttribute('target', '_blank'); // optional, won't be used since download is set
     document.body.appendChild(link);
