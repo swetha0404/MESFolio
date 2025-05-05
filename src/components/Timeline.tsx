@@ -20,7 +20,7 @@ function Timeline() {
             iconStyle={{ background: '#5000ca', color: 'rgb(39, 40, 34)' }}
             icon={<FontAwesomeIcon icon={faBriefcase} />}
           >
-            <h3 className="vertical-timeline-element-title">Prompt Engineer <br/> @Community Dreams Foundation</h3>
+            <h3 className="vertical-timeline-element-title">ML/Prompt Engineer <br/> @Community Dreams Foundation</h3>
             <h4 className="vertical-timeline-element-subtitle">Remote</h4>
             <p>
               Prompt Engineering, LLM Integration, Workflow Automation, Research and Innovation
