@@ -5,7 +5,7 @@ import dcmwebsite from '../assets/images/projects/dcmwebsite.png';
 import hacksprint from '../assets/images/projects/hacksprint.png';
 import aiml4se from '../assets/images/projects/aiml4se.png';
 import wplwebsite from '../assets/images/projects/wpl-website.png';
-
+import abtesting from '../assets/images/projects/ab_testing.png';
 
 import '../assets/styles/Project.scss';
 
@@ -44,11 +44,11 @@ function Project() {
                 <a href="https://github.com/swetha0404/DCM-website" target="_blank" rel="noreferrer"><h2>React.js Web App</h2></a>
                 <p>Recreated work done during Software Development internship at DCM Datalabs. This project is hosted on Render and code is available on Github.</p>
             </div>
-            {/* <div className="project"> 
-                <a href="https://github.com/yujisatojr/multi-reg-analysis" target="_blank" rel="noreferrer"><img src={mock04} className="zoom" alt="thumbnail" width="100%"/></a>
-                <a href="https://github.com/yujisatojr/multi-reg-analysis" target="_blank" rel="noreferrer"><h2>Multiple Regression Property Analysis</h2></a>
-                <p>Analyzed the real estate market in Japan and predicted property prices by implementing statistical methods such as OLS and multi-regression analysis. This project leveraged Python and various libraries such as Pandas, NumPy, Matplotlib, and Scikit-Learn.</p>
-            </div> */}
+            <div className="project"> 
+                <a href="https://github.com/swetha0404/A-B-testing" target="_blank" rel="noreferrer"><img src={abtesting} className="zoom" alt="thumbnail" width="100%"/></a>
+                <a href="https://github.com/swetha0404/A-B-testing" target="_blank" rel="noreferrer"><h2>A/B Testing Analysis of Marketing Campaigns</h2></a>
+                <p>Evaluated the effectiveness of two digital marketing campaigns — a Control Campaign and a Test Campaign — using performance data from a real-world A/B test.</p>
+            </div>
             <div className="project"> {/*8*/}
                 <a href="https://github.com/swetha0404/Hacksprint_Webscraping/" target="_blank" rel="noreferrer"><img src={hacksprint} className="zoom" alt="thumbnail" width="100%"/></a>
                 <a href="https://github.com/swetha0404/Hacksprint_Webscraping/" target="_blank" rel="noreferrer"><h2>Webscraping project for Hackathon</h2></a>
