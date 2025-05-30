@@ -12,7 +12,15 @@ import {
 } from "./components";
 import FadeIn from './components/FadeIn';
 import './index.scss';
+<!-- Google tag (gtag.js) -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=G-1J01D96GQW"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
 
+  gtag('config', 'G-1J01D96GQW');
+</script>
 function App() {
     const [mode, setMode] = useState<string>('dark');
 
