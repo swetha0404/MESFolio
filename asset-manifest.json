@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/MESFolio/static/css/main.81ae0123.css",
-    "main.js": "/MESFolio/static/js/main.8a86f728.js",
+    "main.js": "/MESFolio/static/js/main.1645c4ed.js",
     "static/js/453.066c8846.chunk.js": "/MESFolio/static/js/453.066c8846.chunk.js",
     "static/media/vts12.gif": "/MESFolio/static/media/vts12.2425f9d3837f63d97cca.gif",
     "static/media/vts2.jpg": "/MESFolio/static/media/vts2.779cc90ed026a239bd0f.jpg",
@@ -10,6 +10,7 @@
     "static/media/hackathon.jpg": "/MESFolio/static/media/hackathon.ca2cff48d3cdd2a74455.jpg",
     "static/media/ab_testing.png": "/MESFolio/static/media/ab_testing.cdbb2cdee74a76e30478.png",
     "static/media/srmtranscript.jpg": "/MESFolio/static/media/srmtranscript.9aa5c92e353d4db42274.jpg",
+    "static/media/reddit-analyzer.png": "/MESFolio/static/media/reddit-analyzer.0d6705c91d705c5f3fd2.png",
     "static/media/aiml4se.png": "/MESFolio/static/media/aiml4se.b8eaa25f614c73cb2a1c.png",
     "static/media/utdtranscript.jpg": "/MESFolio/static/media/utdtranscript.82b73509aa58ede72991.jpg",
     "static/media/resume.jpg": "/MESFolio/static/media/resume.914fb50d8594d1ae8192.jpg",
@@ -47,11 +48,11 @@
     "static/media/NPS1.jpg": "/MESFolio/static/media/NPS1.573f33785dc53a5195a4.jpg",
     "index.html": "/MESFolio/index.html",
     "main.81ae0123.css.map": "/MESFolio/static/css/main.81ae0123.css.map",
-    "main.8a86f728.js.map": "/MESFolio/static/js/main.8a86f728.js.map",
+    "main.1645c4ed.js.map": "/MESFolio/static/js/main.1645c4ed.js.map",
     "453.066c8846.chunk.js.map": "/MESFolio/static/js/453.066c8846.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.81ae0123.css",
-    "static/js/main.8a86f728.js"
+    "static/js/main.1645c4ed.js"
   ]
 }
