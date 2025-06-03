@@ -6,6 +6,8 @@ import hacksprint from '../assets/images/projects/hacksprint.png';
 import aiml4se from '../assets/images/projects/aiml4se.png';
 import wplwebsite from '../assets/images/projects/wpl-website.png';
 import abtesting from '../assets/images/projects/ab_testing.png';
+import redditanalyzer from '../assets/images/projects/reddit-analyzer.png';
+
 
 import '../assets/styles/Project.scss';
 
@@ -19,11 +21,11 @@ function Project() {
                 <div> <h2>Repo-level Bug Detection Pipeline</h2> </div>
                 <p> During my research assistantship at AI/ML4SE Lab @UTD, I developed a Multimodal LLM powered pipeline augmented with automated creation of code visualizations such as call graphs, control flow graphs, and dataflow graphs. This pipeline can be used to detect and fix bugs in code repositories. <i>This project is confidential.</i></p>
             </div>
-            {/* <div className="project"> 
-                <a href="https://yujisatojr.itch.io/highspeedchase" target="_blank" rel="noreferrer"><img src={mock09} className="zoom" alt="thumbnail" width="100%"/></a>
-                <a href="https://yujisatojr.itch.io/highspeedchase" target="_blank" rel="noreferrer"><h2>High Speed Chase</h2></a>
-                <p>Designed, developed, and launched a 3D multiplayer racing game with C# and Unity. This is available on Itch.io for gamers worldwide to enjoy.</p>
-            </div> */}
+            <div className="project"> 
+                <a href="https://github.com/swetha0404/Reddit-Stream-Analyzer" target="_blank" rel="noreferrer"><img src={redditanalyzer} className="zoom" alt="thumbnail" width="100%"/></a>
+                <a href="https://github.com/swetha0404/Reddit-Stream-Analyzer" target="_blank" rel="noreferrer"><h2>Reddit Stream Data Analyzer</h2></a>
+                <p>A real-time Reddit stream analyzer that uses PySpark, Kafka, and MLlib for sentiment analysis, with ChatGPT API for summarization and Matplotlib for visual insights.</p>
+            </div>
             {/* <div className="project"> 
                 <a href="https://yujisatojr.itch.io/spacecraft" target="_blank" rel="noreferrer"><img src={mock08} className="zoom" alt="thumbnail" width="100%"/></a>
                 <a href="https://yujisatojr.itch.io/spacecraft" target="_blank" rel="noreferrer"><h2>Astro Raiders</h2></a>
