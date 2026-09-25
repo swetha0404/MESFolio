@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/MESFolio/static/css/main.81ae0123.css",
-    "main.js": "/MESFolio/static/js/main.d59465fe.js",
+    "main.js": "/MESFolio/static/js/main.463a8185.js",
     "static/js/453.066c8846.chunk.js": "/MESFolio/static/js/453.066c8846.chunk.js",
     "static/media/vts12.gif": "/MESFolio/static/media/vts12.2425f9d3837f63d97cca.gif",
     "static/media/vts2.jpg": "/MESFolio/static/media/vts2.779cc90ed026a239bd0f.jpg",
@@ -13,15 +13,17 @@
     "static/media/reddit-analyzer.png": "/MESFolio/static/media/reddit-analyzer.0d6705c91d705c5f3fd2.png",
     "static/media/aiml4se.png": "/MESFolio/static/media/aiml4se.b8eaa25f614c73cb2a1c.png",
     "static/media/utdtranscript.jpg": "/MESFolio/static/media/utdtranscript.82b73509aa58ede72991.jpg",
-    "static/media/resume.jpg": "/MESFolio/static/media/resume.914fb50d8594d1ae8192.jpg",
     "static/media/dcmwebsite.png": "/MESFolio/static/media/dcmwebsite.629f59a7a9eac2a7c232.png",
     "static/media/wpl-website.png": "/MESFolio/static/media/wpl-website.f95163789c629ae2a3ff.png",
     "static/media/googledataanalytics.jpg": "/MESFolio/static/media/googledataanalytics.e1ca13af658fb09ca15f.jpg",
+    "static/media/vega-hero-diagram-3d.png": "/MESFolio/static/media/vega-hero-diagram-3d.46761f297691429e7b08.png",
     "static/media/hacksprint.png": "/MESFolio/static/media/hacksprint.cc619e0aa1d10e9e4fb2.png",
+    "static/media/kcna.jpg": "/MESFolio/static/media/kcna.f85cb5089d396c322c37.jpg",
     "static/media/fallprediction.jpg": "/MESFolio/static/media/fallprediction.1f3e8a2114cbe0639e56.jpg",
     "static/media/bestpaperaward.jpg": "/MESFolio/static/media/bestpaperaward.051ee975fad047950aa7.jpg",
     "static/media/vts10.jpg": "/MESFolio/static/media/vts10.6df418b619374089cf97.jpg",
     "static/media/vts9.jpg": "/MESFolio/static/media/vts9.606a3c1e14d580f93abd.jpg",
+    "static/media/resume.jpg": "/MESFolio/static/media/resume.66d7fc154c36312d1938.jpg",
     "static/media/falldetection.jpg": "/MESFolio/static/media/falldetection.467a42f77e380847d7c4.jpg",
     "static/media/databricksgenai.jpg": "/MESFolio/static/media/databricksgenai.6da7c0692c5b2f8d4aa7.jpg",
     "static/media/vts4.jpg": "/MESFolio/static/media/vts4.4db3deb290e94d8b0eba.jpg",
@@ -39,6 +41,7 @@
     "static/media/vts7.jpg": "/MESFolio/static/media/vts7.3194de93b514d2c32b40.jpg",
     "static/media/NPS10.jpg": "/MESFolio/static/media/NPS10.846af35db3ce20edcd53.jpg",
     "static/media/vts11.jpg": "/MESFolio/static/media/vts11.5629db32420644e9cbc0.jpg",
+    "static/media/pingone.jpg": "/MESFolio/static/media/pingone.b99b70608fcefacd7d5b.jpg",
     "static/media/misc1.jpg": "/MESFolio/static/media/misc1.518bb83770db44b69a05.jpg",
     "static/media/vts8.jpg": "/MESFolio/static/media/vts8.12ac0d931539fa021e63.jpg",
     "static/media/misc4.jpg": "/MESFolio/static/media/misc4.d6543a39fe2e2acecfcd.jpg",
@@ -48,11 +51,11 @@
     "static/media/NPS1.jpg": "/MESFolio/static/media/NPS1.573f33785dc53a5195a4.jpg",
     "index.html": "/MESFolio/index.html",
     "main.81ae0123.css.map": "/MESFolio/static/css/main.81ae0123.css.map",
-    "main.d59465fe.js.map": "/MESFolio/static/js/main.d59465fe.js.map",
+    "main.463a8185.js.map": "/MESFolio/static/js/main.463a8185.js.map",
     "453.066c8846.chunk.js.map": "/MESFolio/static/js/453.066c8846.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.81ae0123.css",
-    "static/js/main.d59465fe.js"
+    "static/js/main.463a8185.js"
   ]
 }
