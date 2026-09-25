@@ -1,4 +1,4 @@
-import React from "react";
+import React, { useState } from "react";
 
 import dropoutforecaster from '../assets/images/projects/dropoutThumbnail.png';
 import dcmwebsite from '../assets/images/projects/dcmwebsite.png';
@@ -7,15 +7,44 @@ import aiml4se from '../assets/images/projects/aiml4se.png';
 import wplwebsite from '../assets/images/projects/wpl-website.png';
 import abtesting from '../assets/images/projects/ab_testing.png';
 import redditanalyzer from '../assets/images/projects/reddit-analyzer.png';
+import vegaFallback from '../assets/images/vega-hero-diagram-3d.png';
 
 
 import '../assets/styles/Project.scss';
+
+const VEGA_VIDEO_URL = 'https://mesportfolio.s3.us-east-1.amazonaws.com/gifs/vega-architecture.mp4';
+
+function VegaThumbnail() {
+    const [videoFailed, setVideoFailed] = useState(false);
+
+    if (videoFailed) {
+        return <img src={vegaFallback} className="zoom" alt="thumbnail" width="100%" />;
+    }
+
+    return (
+        <video
+            className="zoom"
+            src={VEGA_VIDEO_URL}
+            width="100%"
+            autoPlay
+            loop
+            muted
+            playsInline
+            onError={() => setVideoFailed(true)}
+        />
+    );
+}
 
 function Project() {
     return(
     <div className="projects-container" id="projects">
         <h1>Projects</h1>
         <div className="projects-grid">
+            <div className="project"> {/*0*/}
+                <div> <VegaThumbnail /> </div>
+                <div> <h2>LikeMinds Project - Vega</h2> </div>
+                <p> At LikeMinds Consulting Inc., I architected Vega, a LangGraph-based multi-agent platform that automates enterprise IAM operations—license renewals, SSL certificate lifecycle, SP connection setup, and directory management—across PingFederate, PingDirectory, and PingOne. It's backed by a FastMCP tool server exposing 25+ tools over the Model Context Protocol, secured with OAuth 2.0 agent identity (DCR, OBO token exchange, JIT access) and human-in-the-loop approval gates, with a React-based live monitoring dashboard. <i>This project is confidential.</i></p>
+            </div>
             <div className="project"> {/*1*/}
                 <div> <img src={aiml4se} className="zoom" alt="thumbnail" width="100%" /> </div>
                 <div> <h2>Repo-level Bug Detection Pipeline</h2> </div>

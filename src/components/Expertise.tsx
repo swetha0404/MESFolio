@@ -1,23 +1,23 @@
 import React from "react";
 import '@fortawesome/free-regular-svg-icons'
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
-import { faReact, faAws, faPython } from '@fortawesome/free-brands-svg-icons';
+import { faAws, faPython } from '@fortawesome/free-brands-svg-icons';
+import { faShieldHalved } from '@fortawesome/free-solid-svg-icons';
 import Chip from '@mui/material/Chip';
 import '../assets/styles/Expertise.scss';
 
 const labelsFirst = [
-    "React",
-    "Vite",
-    "ChakraUI",
-    "TypeScript",
-    "JavaScript",
-    "HTML5",
-    "CSS3",
-    "Flask",
-    "Python",
-    "SQL",
-    "MongoDB",
-    "Postman"
+    "PingFederate",
+    "PingDirectory",
+    "PingOne",
+    "Auth0",
+    "Okta",
+    "OAuth 2.0",
+    "OIDC",
+    "SAML",
+    "JWT / JWKS",
+    "DCR",
+    "OBO Token Exchange"
 ];
 
 const labelsSecond = [
@@ -26,6 +26,8 @@ const labelsSecond = [
     "PySpark",
     "AWS",
     "Azure",
+    "Docker",
+    "Kubernetes",
     "ElasticSearch",
     "Power BI",
     "Databricks",
@@ -34,15 +36,18 @@ const labelsSecond = [
 ];
 
 const labelsThird = [
-    "Prompt Engineering",
+    "LangGraph",
     "LangChain",
-    "HuggingFace",
+    "CrewAI",
+    "Agentic Pipelines",
+    "MCP",
     "RAG",
-    "SpaCy",
     "OpenAI API",
-    "MultiModal LLMs",
-    "Fine-tuning",
-    "NLP"
+    "HuggingFace",
+    "Prompt Engineering",
+    "FastAPI",
+    "React",
+    "MongoDB"
 ];
 
 function Expertise() {
@@ -52,9 +57,9 @@ function Expertise() {
             <h1>Expertise</h1>
             <div className="skills-grid">
                 <div className="skill">
-                    <FontAwesomeIcon icon={faReact} size="3x"/>
-                    <h3>Full Stack Web Development</h3>
-                    <p>I have built a diverse array of web applications from scratch using modern technologies such as React and Flask. I have a strong proficiency in the SDLC process and frontend + backend development.</p>
+                    <FontAwesomeIcon icon={faShieldHalved} size="3x"/>
+                    <h3>IAM & Security</h3>
+                    <p>I build secure identity integrations for enterprise and agentic systems—implementing OAuth 2.0/OIDC and SAML flows, JWT/JWKS validation, and Dynamic Client Registration with On-Behalf-Of token exchange for scoped, ephemeral agent identity across PingFederate, PingDirectory, and PingOne.</p>
                     <div className="flex-chips">
                         <span className="chip-title">Tech stack:</span>
                         {labelsFirst.map((label, index) => (
@@ -78,7 +83,7 @@ function Expertise() {
                 <div className="skill">
                     <FontAwesomeIcon icon={faPython} size="3x"/>
                     <h3>GenAI & LLM</h3>
-                    <p>I specialize in building GenAI-powered systems using prompt engineering, RAG pipelines, and model fine-tuning for interactive chatbots, and LLM-integrated workflows for enterprise and academic use cases.</p>
+                    <p>I build agentic AI systems—LangGraph multi-agent workflows, CrewAI pipelines, RAG chatbots, and MCP tool servers—paired with full-stack delivery using React, FastAPI, and MongoDB to ship production-ready GenAI applications and monitoring dashboards.</p>
                     <div className="flex-chips">
                         <span className="chip-title">Tech stack:</span>
                         {labelsThird.map((label, index) => (

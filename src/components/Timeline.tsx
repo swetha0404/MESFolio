@@ -16,14 +16,27 @@ function Timeline() {
             className="vertical-timeline-element--work"
             contentStyle={{ background: 'white', color: 'rgb(39, 40, 34)' }}
             contentArrowStyle={{ borderRight: '7px solid  white' }}
-            date="March 2025 - present"
+            date="January 2026 - present"
             iconStyle={{ background: '#5000ca', color: 'rgb(39, 40, 34)' }}
             icon={<FontAwesomeIcon icon={faBriefcase} />}
           >
-            <h3 className="vertical-timeline-element-title">LLM Engineer <br/> Community Dreams Foundation</h3>
+            <h3 className="vertical-timeline-element-title">AI Engineer <br/> LikeMinds Consulting Inc.</h3>
+            <h4 className="vertical-timeline-element-subtitle">Hybrid</h4>
+            <p>
+              Agentic IAM Automation, LangGraph Multi-Agent Workflows, MCP Tool Servers, Secure Agent Identity (OAuth 2.0, DCR, OBO), FastAPI & MongoDB Backend Platforms
+            </p>
+          </VerticalTimelineElement>
+
+          <VerticalTimelineElement
+            className="vertical-timeline-element--work"
+            date="June 2025 - December 2025"
+            iconStyle={{ background: '#5000ca', color: 'rgb(39, 40, 34)' }}
+            icon={<FontAwesomeIcon icon={faBriefcase} />}
+          >
+            <h3 className="vertical-timeline-element-title">AI Intern <br/> R2STEK LLC dba EduServIT</h3>
             <h4 className="vertical-timeline-element-subtitle">Remote</h4>
             <p>
-              Prompt Engineering, LLM Integration, Workflow Automation, Research and Innovation
+              RAG Chatbot Development, CrewAI Agentic Workflows, Monitoring Dashboards, Automation & Notifications
             </p>
           </VerticalTimelineElement>
 
@@ -37,32 +50,6 @@ function Timeline() {
             <h4 className="vertical-timeline-element-subtitle">Richardson, TX</h4>
             <p>
               Software Testing, Bug Detection, MultiModal AI Pipelines, Pipeline Automation
-            </p>
-          </VerticalTimelineElement>
-
-          <VerticalTimelineElement
-            className="vertical-timeline-element--work"
-            date="August 2024 - December 2024"
-            iconStyle={{ background: '#5000ca', color: 'rgb(39, 40, 34)' }}
-            icon={<FontAwesomeIcon icon={faBriefcase} />}
-          >
-            <h3 className="vertical-timeline-element-title">Teaching Assistant<br/> University of Texas at Dallas</h3>
-            <h4 className="vertical-timeline-element-subtitle">Richardson, TX</h4>
-            <p>
-              Mentoring, Tutoring, Grading, Course Management
-            </p>
-          </VerticalTimelineElement>
-
-          <VerticalTimelineElement
-            className="vertical-timeline-element--work"
-            date="July 2023 - July 2024"
-            iconStyle={{ background: '#5000ca', color: 'rgb(39, 40, 34)' }}
-            icon={<FontAwesomeIcon icon={faBriefcase} />}
-          >
-            <h3 className="vertical-timeline-element-title">Student Assistant<br/> Student Union @UTD</h3>
-            <h4 className="vertical-timeline-element-subtitle">Richardson, TX</h4>
-            <p>
-              Customer Service, Building Management, Inventory Management 
             </p>
           </VerticalTimelineElement>
 

@@ -11,6 +11,8 @@ import srmtranscript from '../assets/images/documents/srmtranscript.jpg';
 import bestpaperaward from '../assets/images/documents/bestpaperaward.jpg';
 import falldetection from '../assets/images/documents/falldetection.jpg';
 import fallprediction from '../assets/images/documents/fallprediction.jpg';
+import pingone from '../assets/images/documents/pingone.jpg';
+import kcna from '../assets/images/documents/kcna.jpg';
 
 type DocumentType = {
   id: number;
@@ -24,17 +26,18 @@ const documents: DocumentType[] = [
   
   {
     id: 1,
-    title: 'Google Analytics Certification',
-    description: 'Certification from Google obtained through passing assessment.',
-    fileUrl: 'https://mesportfolio.s3.us-east-1.amazonaws.com/documents/Google+Analytics+Certification.pdf',
-    previewImg: googleanalytics,
+    title: 'PingOne Certified Professional',
+    description: 'Ping Identity certification for PingOne platform proficiency.',
+    fileUrl: 'https://mesportfolio.s3.us-east-1.amazonaws.com/documents/Certified_Professional_PingOne.pdf',
+    previewImg: pingone,
+    
   },
   {
     id: 2,
-    title: 'Data Analytics Professional Certification',
-    description: "Google's official certification -Obtained through Coursera.",
-    fileUrl: 'https://mesportfolio.s3.us-east-1.amazonaws.com/documents/Google+Data+Analytics+Professional+Certificate.pdf',
-    previewImg: googledataanalytics,
+    title: 'Kubernetes and Cloud Native Associate (KCNA)',
+    description: 'CNCF certification validating Kubernetes and cloud native fundamentals.',
+    fileUrl: 'https://mesportfolio.s3.us-east-1.amazonaws.com/documents/KCNA_Certificate.pdf',
+    previewImg: kcna,
   },
   {
     id: 3,
@@ -64,7 +67,21 @@ const documents: DocumentType[] = [
     fileUrl: 'https://mesportfolio.s3.us-east-1.amazonaws.com/documents/Best+Paper+Award-ICRTETE2022.pdf',
     previewImg: bestpaperaward,
   },
-  
+  {
+    id: 11,
+    title: 'Google Analytics Certification',
+    description: 'Certification from Google obtained through passing assessment.',
+    fileUrl: 'https://mesportfolio.s3.us-east-1.amazonaws.com/documents/Google+Analytics+Certification.pdf',
+    previewImg: googleanalytics,
+  },
+  {
+    id: 12,
+    title: 'Data Analytics Professional Certification',
+    description: "Google's official certification -Obtained through Coursera.",
+    fileUrl: 'https://mesportfolio.s3.us-east-1.amazonaws.com/documents/Google+Data+Analytics+Professional+Certificate.pdf',
+    previewImg: googledataanalytics,
+  },
+
   {
     id: 7,
     title: 'Undergraduate Transcript',
@@ -90,7 +107,7 @@ const documents: DocumentType[] = [
     id: 10,
     title: 'Resume',
     description: 'Current Resume',
-    fileUrl: 'https://mesportfolio.s3.us-east-1.amazonaws.com/Swetha_Malaivaiyavur_Elayavalli_Resume.pdf',
+    fileUrl: 'https://mesportfolio.s3.us-east-1.amazonaws.com/documents/Swetha_Latest_Resume.pdf',
     previewImg: resume,
   },
   
